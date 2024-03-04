@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="static/css/dro.css">
+	<title>dro</title>
+</head>
+<body>
+
+
+	<div class="center_form">
+		<form action="/main" method="post">
+			<div class="form_column">
+				<div class="form_row">
+					<input type="number" placeholder="1" name="dro1" required>
+					<div class="form_column1">
+						<input type="number" placeholder="2" name="dro2" required>
+						<input type="number" placeholder="3" name="dro3" min="1" required>
+					</div>
+				</div>
+				<div>
+					<select name="znak">
+						<option value="+">+</option>
+						<option value="-">-</option>
+						<option value="*">*</option>
+						<option value="/">/</option>
+					</select>
+				</div>
+				<div class="form_row">
+					<input type="number" placeholder="1" name="dro4" required>
+					<div class="form_column1">
+						<input type="number" placeholder="2" name="dro5" required>
+						<input type="number" placeholder="3" name="dro6" min="1" required>
+					</div>
+
+
+					<div></div>
+
+
+				</div>
+				<input type="submit" value="вычислить">
+			</div>
+</body>
+</html>

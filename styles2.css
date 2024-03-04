@@ -1,0 +1,53 @@
+div#a {
+    background: blue;
+    width: 400px;
+    height: 400px;
+
+    /* Отступы */
+
+    /* margin: внешний отступ (снаружи элемента) */
+    /* margin-left: 10px; */
+
+    /* padding: внутренний отступ (внутри элемента) */
+    /* padding-top: 20px; */
+}
+
+div#t {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+div#m {
+    padding-left: 130px;
+    padding-top: 60px;
+
+}
+
+/* div#b {
+    background: red;
+    width: 100px;
+    height: 100px;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+div#c {
+    background: yellow;
+    width: 100px;
+    height: 100px;
+    margin-left: 210px;
+    margin-top: 20px;
+}
+
+div#a1 {
+    background: black;
+    width: 20px;
+    height: 20px;
+    margin-left: 80px;
+}
+
+div#a2 {
+    background: grey;
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,109 @@
+body {
+    background: #080C15;
+    margin: 0;
+}
+
+div.container {
+    position: relative;
+    width: 980px;
+    margin: auto;
+
+    /* Для проверки; потом убрать */
+}
+div.container > p {
+    position: relative;
+    z-index: 2;
+}
+
+
+
+h1#main_header {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 88.44px;
+    line-height: 60px;
+}
+
+
+img.burger {
+    width: 80px;
+    margin-left: -25px;
+}
+
+img.burger-first {
+    width: 80px;
+    margin-left: 0px;
+}
+
+img.g {
+    width:  807px;
+    position: absolute;
+    right: 0;
+    left: 265px;
+    top: -151px;
+    z-index: 0;
+}
+
+.left {
+    position: relative;
+    z-index: 123;
+}
+
+
+h1#main_bottom {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+
+div#a {
+    padding: 15px 0 15px 0;
+    background: red;
+    width: 222px;
+    margin-top: 32px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+p#menu {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+
+div.bottoms-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 77px;
+}
+
+div.bottoms {
+    background: linear-gradient(90deg, #6B6D73, #0E121B);
+    width: 200px;
+    margin-right: 10px;
+    padding-left: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 59px;
+    border-radius: 50px 0 0 50px;
+}
+
+div.bottoms > p {
+    color: white;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+
+h1#main_header > span {
+    color: #CD292A;
+}

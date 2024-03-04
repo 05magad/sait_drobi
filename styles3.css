@@ -1,0 +1,49 @@
+/*div.red {
+    background: red;
+}
+
+div.green {
+    background: green;
+}
+
+div.small {
+    width: 50px;
+    height: 50px;
+}
+
+div.big {
+    width: 200px;
+    height: 200px;
+}
+
+div.rotated {
+    transform: rotate(45deg);
+}
+
+div.fadeout {
+    transition: 1s;
+}
+
+div.fadeout:hover {
+    opacity: 0;
+}
+
+div.cls:hover {
+    width: 100px;
+    height: 100px;
+}*/
+
+img.cls {
+    width: 150px;
+    height: 150px;
+}
+div#d {
+    text-align: center;
+}
+
+p {
+    color: red;
+    text-align: center;
+    font-size: 30px;
+}
+

@@ -1,0 +1,36 @@
+body {
+    background: #708090;
+    margin: 0;
+}
+
+input[type=number] {
+    width: 50px;
+}
+
+div.center_form {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.form_row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+div.form_column1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+div.form_column {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 30%;
+}
