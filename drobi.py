@@ -39,4 +39,4 @@ def index():
         return 'мы не лохи'
 
 
-server.run()
+server.run(debug=True)
