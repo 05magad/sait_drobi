@@ -2,41 +2,57 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="static/css/dro.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+	<link rel="stylesheet" href="../static/css/bulma_addon.css">
 	<title>dro</title>
 </head>
 <body>
-	<div class="hero is-fullheight">
+	<div class="hero is-fullheight ">
 		<div class="hero-body">
-			<div class="container has-text-centered">
-				<form action="/main" method="post">
-					<div class="columns">
+			<div class="container has-text-centered ">
+				<form action="/main" method="post" >
+					<div class="columns is-align-items-stretch is-justify-content-space-around">
 						<div class="column">
-							<input type="number" class="input is-large" placeholder="1" name="dro1" required>
-							<div>
-								<input type="number" class="input is-large" placeholder="2" name="dro2" required>
-								<input type="number" class="input is-large" placeholder="3" name="dro3" min="1" required>
+							<div class="columns">
+								<div class="column">
+									<input type="number" class="input height100 is-large" placeholder="1" name="dro1" required>
+								</div>
+								<div class="column">
+									<input type="number" class="input is-large" placeholder="2" name="dro2" required>
+									<input type="number" class="input is-large" placeholder="3" name="dro3" min="1"
+									       required>
+								</div>
+							</div>
+						</div>
+						<div class="column is-flex is-flex-direction-column is-justify-content-center">
+							<div class="field">
+								<div class="control">
+									<div class="select">
+										<select name="znak">
+											<option value="+">+</option>
+											<option value="-">-</option>
+											<option value="*">*</option>
+											<option value="/">/</option>
+										</select>
+									</div>
+								</div>
 							</div>
 						</div>
 						<div class="column">
-							<select name="znak">
-								<option value="+">+</option>
-								<option value="-">-</option>
-								<option value="*">*</option>
-								<option value="/">/</option>
-							</select>
-						</div>
-						<div class="column">
-							<input type="number" class="input is-large" placeholder="1" name="dro4" required>
-							<div>
-								<input type="number" class="input is-large" placeholder="2" name="dro5" required>
-								<input type="number" class="input is-large" placeholder="3" name="dro6" min="1" required>
+							<div class="columns">
+								<div class="column">
+									<input type="number" class="input height100 is-large" placeholder="1" name="dro4" required>
+								</div>
+								<div class="column">
+									<input type="number" class="input is-large" placeholder="2" name="dro5" required>
+									<input type="number" class="input is-large" placeholder="3" name="dro6" min="1"
+									       required>
+								</div>
 							</div>
 						</div>
 					</div>
 					<input type="submit" class="button is-primary" value="решение">
-
+				</form>
 			</div>
 		</div>
 	</div>
