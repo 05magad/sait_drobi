@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../static/css/bulma_addon.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+	<title>Title</title>
+</head>
+<body>
+	<section class="hero is-success is-fullheight">
+		<div class="hero-body">
+			<div class="container has-text-centered">
+				<div class="is-flex is-justify-content-space-between">
+					<p class="title">
+						Ответ
+					</p>
+					<div class="columns is-align-items-stretch ">
+						<div class="column is-one-third">
+							<input type="number" class="input height100 is-large " value="{{ result[0] }}" name="dro1"
+							       disabled>
+						</div>
+						<div class="column is-one-third">
+							<input type="number" class="input is-large " value="{{ result[1] }}" name="dro2" disabled>
+							<input type="number" class="input is-large " value="{{ result[2] }}" name="dro3" min="1"
+							       disabled>
+						</div>
+					</div>
+				</div>
+				<button class="button">Очистить</button>
+			</div>
+		</div>
+	</section>
+
+</body>
+</html>

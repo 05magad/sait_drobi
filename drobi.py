@@ -28,15 +28,16 @@ def index():
     znak = request.form['znak']
 
     if znak == '+':
-        return str(plus(drob1, drob2))
+        result = plus(drob1, drob2)
     elif znak == '-':
-        return str(minus(drob1, drob2))
+        result = minus(drob1, drob2)
     elif znak == '/':
-        return str(deli(drob1, drob2))
+        result = deli(drob1, drob2)
     elif znak == '*':
-        return str(umnozh(drob1, drob2))
-    else:
-        return 'мы не лохи'
+        result = umnozh(drob1, drob2)
+    return render_template('hero.html', result=result)
 
 
-server.run()
+
+
+server.run(debug=True)
